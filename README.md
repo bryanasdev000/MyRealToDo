@@ -12,6 +12,8 @@ Pequeno projeto para uso pessoal e estudo de diversos topicos, sendo alguns dele
 - Infraestrutura para a aplicacao
 - Monitoramento
 
+Basicamente entender e reproduzir todo o ciclo de vida da aplicacao, e me divertir um pouco durante o processo :smile: .
+
 ## TODOs 
 
 - Adicionar suporte ao PostgreSQL
