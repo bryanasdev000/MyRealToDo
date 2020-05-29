@@ -11,3 +11,6 @@ htmlcov/
 dist/
 build/
 *.egg-info/
+
+# DB
+flaskr/db
