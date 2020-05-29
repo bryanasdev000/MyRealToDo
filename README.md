@@ -41,6 +41,25 @@ Basicamente entender e reproduzir todo o ciclo de vida da aplicacao, e me divert
 | status     | TEXT         | NOT NULL                  |
 | depende    | TEXT         | -                         |
 
+## Deploy
+
+### Dev
+
+Para subir a aplicacao na sua maquina basta efetuar o clone do repositorio, criar o virtualenv, subir as dependencias e chamar o Flask. Esse processo pode ser feito com os comandos abaixo:
+
+```bash
+git clone -b dev https://github.com/bryanasdev000/MyRealToDo
+cd MyRealToDo
+python3 -m venv venv
+pip3 install -r requeriments.txt
+export FLASK_APP=flaskr/main.py
+flask run
+```
+
+### Prod
+
+TODO
+
 ## Referencias
 
 [Designing a RESTful API with Python and Flask - miguelgrinberg.com](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
