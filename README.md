@@ -51,6 +51,7 @@ Para subir a aplicacao na sua maquina basta efetuar o clone do repositorio, cria
 git clone -b dev https://github.com/bryanasdev000/MyRealToDo
 cd MyRealToDo
 python3 -m venv venv
+source venv/bin/activate
 pip3 install -r requeriments.txt
 export FLASK_APP=flaskr/main.py
 flask run
