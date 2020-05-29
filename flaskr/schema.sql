@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS todos;
+
+CREATE TABLE todos (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome TEXT NOT NULL,
+  prioridade TEXT NOT NULL,
+  status TEXT NOT NULL,
+  depende TEXT
+);
