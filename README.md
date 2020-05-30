@@ -16,6 +16,8 @@ Basicamente entender e reproduzir todo o ciclo de vida da aplicacao, e me divert
 
 ## TODOs 
 
+Objetivos imediatos que nao estam implicitamente listados nos topicos de estudo acima.
+
 - Adicionar suporte ao PostgreSQL
 - Corrigir o tratamento de conexoes no banco (sem ORM)
 - bumb2version
@@ -36,7 +38,7 @@ Basicamente entender e reproduzir todo o ciclo de vida da aplicacao, e me divert
 | Campo      | Tipo de dado | Constraint                |
 |------------|--------------|---------------------------|
 | id         | INTEGER      | PRIMARY KEY AUTOINCREMENT |
-| nome      | TEXT         | NOT NULL                  |
+| nome       | TEXT         | NOT NULL                  |
 | prioridade | TEXT         | NOT NULL                  |
 | status     | TEXT         | NOT NULL                  |
 | depende    | TEXT         | -                         |
