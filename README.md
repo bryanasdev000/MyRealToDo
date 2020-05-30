@@ -18,7 +18,7 @@ Basicamente entender e reproduzir todo o ciclo de vida da aplicacao, e me divert
 
 - Adicionar suporte ao PostgreSQL
 - Corrigir o tratamento de conexoes no banco (sem ORM)
-- Desenvolver frontend para consumir a API REST
+- bumb2version
 
 ## Endpoints
 
@@ -29,7 +29,7 @@ Basicamente entender e reproduzir todo o ciclo de vida da aplicacao, e me divert
 | POST    | /api/v1.0/tasks      | Cria uma nova tarefa             |
 | PUT     | /api/v1.0/tasks/<id> | Atualiza uma tarefa              |
 | DELETE  | /api/v1.0/tasks/<id> | Deleta uma tarefa                |
-
+| GET     | /healtcheck          | Checa a saude da aplicacao       |
 
 ## Modelo de dados
 
