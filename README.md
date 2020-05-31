@@ -6,6 +6,7 @@ Pequeno projeto para uso pessoal e estudo de diversos topicos, sendo alguns dele
 - API REST
 - DB (SQLite e PostgreSQL)
 - Frontend
+- CLI
 - Git
 - Testes unitarios
 - CI/CD
