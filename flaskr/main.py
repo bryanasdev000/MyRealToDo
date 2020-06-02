@@ -68,6 +68,6 @@ def deleteTask(id):
     return "deleteTask()!"
 
 
-@app.route("/healtcheck", methods=["GET"])
+@app.route("/healthcheck", methods=["GET"])
 def healthcheck():
     return Response("Awake and Alive", status=200, mimetype="text/plain")
